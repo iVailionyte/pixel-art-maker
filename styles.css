@@ -61,15 +61,22 @@ table {
     }
     
     span {
-        font-size: 1.2em;
+        font-size: 18px;
         display: block;
     }
     
     input[type=number] {
         padding: 4px 7px;
-        border-radius: 5px;
         border: 1px solid #a9a9a9;
         margin: 6px 0;
+        font-size: 18px;
+    }
+    
+    input[type=submit] {
+        display: block;
+        margin: 0 auto;
+        padding: 4px 7px;       
+        font-size: 16px;
     }
 }
 
