@@ -59,6 +59,11 @@ table {
     input[type=number] {
         width: 10em;
     }
+    
+    span {
+        font-size: 1.2em;
+        display: block;
+    }
 }
 
 @media screen and (min-width: 571px) and (max-width: 949px) {
