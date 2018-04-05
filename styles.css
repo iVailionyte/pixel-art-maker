@@ -42,3 +42,21 @@ input[type=number] {
 table {
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 570px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    tr {
+        height: 40px;
+    }
+
+    td {
+        width: 40px;
+    }
+
+    input[type=number] {
+        width: 10em;
+    }
+}
