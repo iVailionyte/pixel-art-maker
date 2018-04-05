@@ -61,21 +61,21 @@ table {
     }
     
     span {
-        font-size: 18px;
+        font-size: 16px;
         display: block;
     }
     
     input[type=number] {
-        padding: 4px 7px;
+        padding: 4px 5px;
         border: 1px solid #a9a9a9;
-        margin: 6px 0;
-        font-size: 18px;
+        margin: 4px 0;
+        font-size: 16px;
     }
     
     input[type=submit] {
         display: block;
         margin: 0 auto;
-        padding: 4px 7px;       
+        padding: 4px 5px;       
         font-size: 16px;
     }
 }
@@ -95,5 +95,24 @@ table {
     
     input[type=number] {
         width: 8em;
+    }
+    
+    span {
+        font-size: 16px;
+        display: block;
+    }
+    
+    input[type=number]{
+        padding: 2px 4px;
+        border: 1px solid #a9a9a9;
+        margin: 2px 0;
+        font-size: 16px;
+    }
+    
+    input[type=submit] {
+        display: block;
+        margin: 0 auto;
+        padding: 2px 4px;
+        font-size: 16px;
     }
 }
