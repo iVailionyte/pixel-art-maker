@@ -60,3 +60,21 @@ table {
         width: 10em;
     }
 }
+
+@media screen and (min-width: 571px) and (max-width: 949px) {
+    h1 {
+        font-size: 60px;
+    }
+    
+    tr {
+        height: 30px;
+    }
+    
+    td {
+        width: 30px;
+    }
+    
+    input[type=number] {
+        width: 8em;
+    }
+}
