@@ -64,6 +64,13 @@ table {
         font-size: 1.2em;
         display: block;
     }
+    
+    input[type=number] {
+        padding: 4px 7px;
+        border-radius: 5px;
+        border: 1px solid #a9a9a9;
+        margin: 6px 0;
+    }
 }
 
 @media screen and (min-width: 571px) and (max-width: 949px) {
