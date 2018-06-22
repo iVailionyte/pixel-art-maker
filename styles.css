@@ -1,118 +1,109 @@
 body {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    font-family: Monoton;
-    font-size: 70px;
-    margin: 0.2em;
+  font-family: Monoton;
+  font-size: 70px;
+  margin: 0.2em;
 }
 
 h2 {
-    margin: 1em 0 0.25em;
+  margin: 1em 0 0.25em;
 }
 
 h2:first-of-type {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 table,
 tr,
 td {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0 auto;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 tr {
-    height: 20px;
+  height: 20px;
 }
 
 td {
-    width: 20px;
+  width: 20px;
 }
 
 input[type=number] {
-    width: 6em;
-}
-
-table {
-    margin-bottom: 30px;
+  width: 6em;
 }
 
 @media screen and (max-width: 570px) {
-    h1 {
-        font-size: 50px;
-    }
+  h1 {
+    font-size: 50px;
+  }
 
-    tr {
-        height: 40px;
-    }
+  tr {
+    height: 40px;
+  }
 
-    td {
-        width: 40px;
-    }
+  td {
+    width: 40px;
+  }
 
-    input[type=number] {
-        width: 10em;
-    }
-    
-    span {
-        font-size: 16px;
-        display: block;
-    }
-    
-    input[type=number] {
-        padding: 4px 5px;
-        border: 1px solid #a9a9a9;
-        margin: 5px 0;
-        font-size: 16px;
-    }
-    
-    input[type=submit] {
-        display: block;
-        margin: 0 auto;
-        padding: 4px 5px;       
-        font-size: 16px;
-    }
+  span {
+    font-size: 16px;
+    display: block;
+  }
+
+  input[type=number] {
+    padding: 4px 5px;
+    border: 1px solid #a9a9a9;
+    margin: 5px 0;
+    font-size: 16px;
+    width: 10em;
+  }
+
+  input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    padding: 4px 5px;       
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 571px) and (max-width: 949px) {
-    h1 {
-        font-size: 60px;
-    }
-    
-    tr {
-        height: 30px;
-    }
-    
-    td {
-        width: 30px;
-    }
-    
-    input[type=number] {
-        width: 8em;
-    }
-    
-    span {
-        font-size: 16px;
-        display: block;
-    }
-    
-    input[type=number]{
-        padding: 2px 4px;
-        border: 1px solid #a9a9a9;
-        margin: 5px 0;
-        font-size: 16px;
-    }
-    
-    input[type=submit] {
-        display: block;
-        margin: 0 auto;
-        padding: 2px 4px;
-        font-size: 16px;
-    }
+  h1 {
+    font-size: 60px;
+  }
+
+  tr {
+    height: 30px;
+  }
+
+  td {
+    width: 30px;
+  }
+
+  span {
+    font-size: 16px;
+    display: block;
+  }
+
+  input[type=number] {
+    padding: 2px 4px;
+    border: 1px solid #a9a9a9;
+    margin: 5px 0;
+    font-size: 16px;
+    width: 8em;
+  }
+
+  input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    padding: 2px 4px;
+    font-size: 16px;
+  }
 }
